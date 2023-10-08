@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "export NODE_OPTIONS='--max-old-space-size=8192' && next dev",
+    "dev": "SET NODE_OPTIONS='--max-old-space-size=8192' && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,6 +16,8 @@
     "@pinecone-database/pinecone": "^1.1.0",
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-query": "^4.35.7",
+    "@types/md5": "^2.3.3",
+    "ai": "^2.2.14",
     "aws-sdk": "^2.1471.0",
     "axios": "^1.5.1",
     "class-variance-authority": "^0.7.0",
